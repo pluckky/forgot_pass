@@ -8,8 +8,7 @@
 ) 
 
 Create paswword_reset table for forget pass
-UserProfile2 should be in pages not components
-rename it to UserProfile after
+
 CREATE TABLE password_reset(
     email VARCHAR(255) PRIMARY KEY,
     otp_code INT NOT NULL,
