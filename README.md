@@ -1,16 +1,12 @@
 Login controllers
 server 
 web 
-
-There are alerts sa mga code for checking 
-alisin mo nlng if di mo kailangan marti 
-al tho prefer ko kasi if may alerts
-
-
-all should go to their respective folders
+UserProfile
+copypaste mo lng yan
 
 Create paswword_reset table for forget pass
-
+UserProfile2 should be in pages not components
+rename it to UserProfile after
 CREATE TABLE password_reset(
     email VARCHAR(255) PRIMARY KEY,
     otp_code INT NOT NULL,
@@ -18,5 +14,28 @@ CREATE TABLE password_reset(
     FOREIGN KEY (email) REFERENCES user_information(email)
 );
 
+Forgot Password and Upload Profile Pic Features
 
+## Install
+cd frontend 
+cd backend
+
+npm install dependencies 
+
+npm install multer
+
+FOR upload middeware: 
+create a folder middleware
+backend/middleware/uploadmiddleware.js
+
+### 1. Create two terminals:
+- One for the backend.
+- One for the frontend.
+
+### 2. For Backend Terminal:
+Navigate to the `BackEnd` directory:
+```bash
+cd BackEnd
+
+For 
 
