@@ -1,0 +1,173 @@
+/* Modal Input Field Focus */
+.modal-content input:focus {
+  outline: none;
+  border-color: var(--first-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Info Box */
+.personal-infoBox,
+.account-securityBox,
+.vehicle-infoBox {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-infoBox h3,
+.account-securityBox h3,
+.vehicle-infoBox h3 {
+  font-family: var(--body-font);
+  font-weight: bold;
+  color: var(--first-color);
+  margin-bottom: 10px;
+}
+
+/* Modal Close Button */
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #aaa;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  color: #000;
+}
+
+/* Form Button Styles */
+.save-button,
+.cancel-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px 5px 0;
+  transition: 0.2s;
+}
+
+/* Table styles */
+.__table__ {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.__table__ th,
+.__table__ td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.__table__ th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.__table__ tr:hover {
+  background-color: #f9f9f9;
+}
+
+.history-table th,
+.history-table td {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.history-table th {
+  background-color: #f0f0f0;
+}
+
+.history-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.history-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Add padding to the modal content */
+.modal-content {
+  padding: 20px;
+}
+
+/* Account Section */
+.accountFullname {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.accountDisplaytype {
+  color: #888;
+}
+
+.accountDisplayemail {
+  color: #555;
+}
+
+/* Profile Section Content */
+.profile-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-title {
+  font-size: 18px;
+  color: var(--first-color);
+  margin-bottom: 15px;
+}
+
+/* Modal Header */
+.modal-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--first-color);
+  margin-bottom: 20px;
+}
+
+.upload-button {
+  background-color: #006837;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #00542e;
+}
+
+.save-button {
+  position: absolute;
+  right: 20px; /* Adjust the distance from the right edge as needed */
+  bottom: 20px; /* Adjust the distance from the bottom edge */
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.save-button:active {
+  background-color: #388e3c; /* Even darker green when clicked */
+}
