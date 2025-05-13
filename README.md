@@ -5,6 +5,9 @@ UserProfile
 copypaste mo lng yan
 
 
+UserProfile2 should be in pages not components
+rename it to UserProfile after
+
 
 Forgot Password and Upload Profile Pic Features
 
